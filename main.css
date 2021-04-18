@@ -1,0 +1,646 @@
+img {
+    display: block;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    width: 100%;
+    height: 4.3rem;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #1e1e1e;
+    z-index: 1;
+}
+
+header img#logo {
+    width: 99px;
+    height: 19px;
+    float: left;
+    margin-left: 100px;
+}
+
+header nav{
+    width: 300px;
+    height:100%;
+    margin-left: 60px;
+
+}
+header ul{
+    width: 350px;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 550;
+    font-family: "genesis-head", sans-serif;
+    color: white;
+    height:100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+nav#util-navigation{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    height:100%;
+    display: flex;
+    position:absolute;
+    right:10%;
+    align-items:center;
+    display: inline-block;
+    margin:0%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.material-icons{
+    background-color: black;
+    color:white;
+    font-size: 13px;
+    cursor:pointer;
+    position:relative;
+    border:0;
+    outline:0;
+}
+
+a{text-decoration: none;
+color: white
+}
+
+nav#main_navigation li a{
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+
+
+#slider-wrap{
+	width:100%;
+	height: 760px;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider-wrap ul#slider{
+	height:760px;
+    width:auto;
+	position:absolute;
+	top:4.3rem;
+	left:0;		
+}
+
+#slider-wrap ul#slider li{
+	float:left;
+	position:relative;
+	width:100%;
+	height:100%;	
+}
+
+#slider-wrap ul#slider li > div{
+	position:relative;
+	
+}
+
+/* 슬라이더 텍스트 */
+
+#slider-wrap ul#slider li#slider1 > div > h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:80px;
+    font-weight:lighter;
+    color:white;
+    line-height: 8rem;
+    display:block;
+    letter-spacing: -0.25rem;
+    position:absolute;
+    left:100px;
+    top:40px;
+    margin-bottom: 1.5rem;
+    line-height:100%;
+
+}
+
+
+#slider-wrap ul#slider li#slider1 > div > h2{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:20px;
+    font-weight: 100;
+    position:absolute;
+    left:110px;
+    margin-top:13rem;
+
+}
+
+#slider-wrap ul#slider li#slider2 > div > h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:100px;
+    font-weight:100;
+    color:white;
+    line-height: 8rem;
+    display:block;
+    letter-spacing: -0.25rem;
+    position:absolute;
+    left:90px;
+    top:80px;
+    margin-bottom: 1.7rem;
+    line-height:100%;
+}
+
+#slider-wrap ul#slider li#slider2 > div > h2{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:18px;
+    font-weight: lighter;
+    position:absolute;
+    left:100px;
+    margin-top:3.5rem;
+}
+
+#slider-wrap ul#slider li#slider2 > div > h3{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:21px;
+    font-weight: 100;
+    position:absolute;
+    left:100px;
+    margin-top:12rem;
+    line-height: 33px;
+
+}
+
+#slider-wrap ul#slider li#slider3 > div > h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:100px;
+    font-weight:100;
+    color:white;
+    line-height: 8rem;
+    display:block;
+    letter-spacing: -0.25rem;
+    position:absolute;
+    left:90px;
+    top:80px;
+    margin-bottom: 1.7rem;
+    line-height:100%;
+}
+
+#slider-wrap ul#slider li#slider3 > div > h2{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:18px;
+    font-weight: lighter;
+    position:absolute;
+    left:90px;
+    margin-top:3.5rem;
+}
+
+#slider-wrap ul#slider li#slider3 > div > h3{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:21px;
+    font-weight: 100;
+    position:absolute;
+    left:100px;
+    margin-top:12rem;
+    line-height: 33px;
+
+}
+
+#slider-wrap ul#slider li#slider3 > div > h4{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:17.5px;
+    font-weight: 100;
+    position:absolute;
+    left:100px;
+    margin-top:30rem;
+    line-height: 33px;
+
+}
+
+#slider-wrap ul#slider li#slider4 > div > h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:100px;
+    font-weight:100;
+    color:white;
+    line-height: 8rem;
+    display:block;
+    letter-spacing: -0.25rem;
+    position:absolute;
+    left:90px;
+    top:80px;
+    margin-bottom: 1.7rem;
+    line-height:100%;
+}
+
+#slider-wrap ul#slider li#slider4 > div > h2{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:18px;
+    font-weight: lighter;
+    position:absolute;
+    left:90px;
+    margin-top:3.5rem;
+}
+
+#slider-wrap ul#slider li#slider4 > div > h3{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:21px;
+    font-weight: 100;
+    position:absolute;
+    left:100px;
+    margin-top:12rem;
+    line-height: 33px;
+
+}
+
+#slider-wrap ul#slider li#slider4 > div > h4{
+    color:white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:17.5px;
+    font-weight: 100;
+    position:absolute;
+    left:100px;
+    margin-top:30rem;
+    line-height: 33px;
+
+}
+
+
+/* 슬라이더 이미지 */
+
+#slider-wrap ul#slider li img{
+    display:block;
+    width: 100%;
+    height: 760px;
+}
+
+#slider-wrap ul#slider li#slider2 > div > figure > img{
+    position:absolute;
+    left:100px;
+    margin-top:27rem;
+    width: 220px;
+    height:auto;
+}
+/* 슬라이더 내 텍스트 버튼 */
+
+#slider-wrap ul#slider li#slider1 > div > button.btn1 {
+    background-color: white;
+    padding: 15px 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid black;
+    position:absolute;
+    left: 100px;
+    margin-top:33rem;
+}
+
+#slider-wrap ul#slider li#slider1 > div > button.btn2{
+    background-color: black;
+    padding: 15px 60px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid white;
+    position:absolute;
+    left: 20rem;
+    margin-top:33rem;
+}
+
+#slider-wrap ul#slider li#slider2 > div > button.btn1{
+    background-color: white;
+    padding: 15px 60px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid black;
+    position:absolute;
+    left: 100px;
+    margin-top:33rem;
+}
+
+#slider-wrap ul#slider li#slider2 > div > button.btn2{
+    background-color: black;
+    padding: 15px 60px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid white;
+    position:absolute;
+    left: 20rem;
+    margin-top:33rem;
+}
+
+#slider-wrap ul#slider li#slider3 > div > button.btn1{
+    background-color: white;
+    padding: 15px 60px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid black;
+    position:absolute;
+    left: 100px;
+    margin-top:33rem;
+}
+
+#slider-wrap ul#slider li#slider3 > div > button.btn2{
+    background-color: black;
+    padding: 15px 60px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid white;
+    position:absolute;
+    left: 20rem;
+    margin-top:33rem;
+}
+
+#slider-wrap ul#slider li#slider4 > div > button.btn1{
+    background-color: white;
+    padding: 15px 60px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid black;
+    position:absolute;
+    left: 100px;
+    margin-top:33rem;
+}
+
+#slider-wrap ul#slider li#slider4 > div > button.btn2{
+    background-color: black;
+    padding: 15px 60px;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    border:1px solid white;
+    position:absolute;
+    left: 20rem;
+    margin-top:33rem;
+}
+
+/* 슬라이더 버튼*/
+.slider-btns{
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:50%;
+	margin-top:-25px;
+	line-height:57px;
+	text-align:center;
+	cursor:pointer;	
+	background-color: Transparent;
+    z-index:100;
+	
+	-webkit-user-select: none;  
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-ms-user-select: none;
+    user-select: none;
+	
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	-ms-user-transition: all 0.1s ease;
+	transition: all 0.1s ease
+}
+
+.slider-btns:hover{
+	background-color:transparent;
+    
+}
+
+#next {
+    right: 0px;
+    color: #eee;
+    
+
+}
+
+#previous {
+    left: 0px;
+    color: #eee;
+    
+}
+
+.material-icons{
+    background:transparent;
+    font-size: 500px;
+}
+    
+
+
+
+/*바*/
+#slider-pagination-wrap {
+    min-width: 20px;
+    margin-top: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    cursor:pointer;
+}
+
+#slider-pagination-wrap ul {
+    width: 100%;
+}
+
+#slider-pagination-wrap ul li {
+    margin: 4px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.5;
+    position: relative;
+    top: 0;
+}
+
+#slider-pagination-wrap ul li.active {
+    width: 12px;
+    height: 12px;
+    top: 3px;
+    opacity: 1;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0px;
+}
+
+/*슬라이더 애니메이션*/
+#slider-wrap ul,
+#slider-pagination-wrap ul li {
+    -webkit-transition: all 0.3s cubic-bezier(1, .01, .32, 1);
+    -o-transition: all 0.3s cubic-bezier(1, .01, .32, 1);
+    transition: all 0.3s cubic-bezier(1, .01, .32, 1);
+}
+
+/* 상하이 비디오 */
+#standard-video iframe{
+    width:100%;
+    height:700px;
+}
+
+/* gv70.teasing slider*/
+
+#slider-wrap_gv70_teasing{
+	width:100%;
+	height: 780px;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider-wrap_gv70_teasing ul#slider_gv70{
+	height:780px;
+    width:auto;
+	position:absolute;
+	top:4.3rem;
+	left:0;		
+}
+
+#slider-wrap_gv70_teasing ul#slider_gv70 li{
+	float:left;
+	position:relative;
+	width:100%;
+	height:100%;	
+}
+
+#slider-wrap_gv70_teasing ul#slider_gv70 li > div{
+	position:relative;
+	
+}
+
+#slider-wrap_gv70_teasing ul#slider_gv70 li img{
+    display:block;
+    width: 100%;
+    height: 780px;
+}
+
+.slider-gv70-btns{
+	position:absolute;
+	width:100px;
+	height:100px;
+	top:50%;
+	margin-top:-25px;
+	line-height:57px;
+	text-align:center;
+	cursor:pointer;	
+	background-color: Transparent;
+    z-index:100;
+	
+	-webkit-user-select: none;  
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-ms-user-select: none;
+    user-select: none;
+	
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	-ms-user-transition: all 0.1s ease;
+	transition: all 0.1s ease
+}
+
+.slider-gv70-btns:hover{
+	background-color:transparent;
+    
+}
+
+#slider-gv70-next {
+    right: 0px;
+    color: #eee;
+    
+
+}
+
+#slider-gv70-previous {
+    left: 0px;
+    color: #eee;
+    
+}
+
+
+/* slider_gv70-pagination */
+#slider_gv70-pagination-wrap {
+    min-width: 20px;
+    margin-top: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    cursor:pointer;
+}
+
+#slider_gv70-pagination-wrap ul {
+    width: 100%;
+}
+
+#slider_gv70-pagination-wrap ul li {
+    margin: 4px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.5;
+    position: relative;
+    top: 0;
+}
+
+#slider_gv70-pagination-wrap ul li.active {
+    width: 12px;
+    height: 12px;
+    top: 3px;
+    opacity: 1;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 0px;
+}
+
+/*슬라이더 애니메이션*/
+#slider-wrap_gv70_teasing ul,
+#slider_gv70-pagination-wrap ul li {
+    -webkit-transition: all 0.3s cubic-bezier(1, .01, .32, 1);
+    -o-transition: all 0.3s cubic-bezier(1, .01, .32, 1);
+    transition: all 0.3s cubic-bezier(1, .01, .32, 1);
+}
